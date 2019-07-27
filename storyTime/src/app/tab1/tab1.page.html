@@ -28,7 +28,21 @@
       <ion-label>Story Parts</ion-label>
     </ion-list-header>
   </ion-list>
-  <ion-button color="primary" expand="full" fill="solid">Beginning</ion-button>
-  <ion-button color="primary" expand="full" fill="solid">Middle</ion-button>
-  <ion-button color="primary" expand="full" fill="solid">End</ion-button>
+  <ion-button
+    color="primary"
+    expand="full"
+    fill="solid"
+    (click)="launchBeginning()"
+    >Beginning
+  </ion-button>
+  <ion-button
+    color="primary"
+    expand="full"
+    fill="solid"
+    (click)="launchMiddle()"
+    >Middle</ion-button
+  >
+  <ion-button color="primary" expand="full" fill="solid" (click)="launchEnd()"
+    >End</ion-button
+  >
 </ion-content>
