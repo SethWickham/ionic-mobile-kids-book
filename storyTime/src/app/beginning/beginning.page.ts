@@ -10,6 +10,8 @@ export class BeginningPage implements OnInit {
   constructor(private router: Router) {}
 
   launchHome() {
+    //we use /tabs/home so that our navbar will be visible upon our return to the home tab
+    // because we are navigating through our tabs page
     this.router.navigateByUrl('/tabs/home');
   }
   launchMiddle() {

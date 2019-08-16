@@ -12,4 +12,10 @@ export class HomePage {
   launchBeginning() {
     this.router.navigateByUrl('/beginning');
   }
+  launchMiddle() {
+    this.router.navigateByUrl('/middle');
+  }
+  launchEnd() {
+    this.router.navigateByUrl('/end');
+  }
 }
