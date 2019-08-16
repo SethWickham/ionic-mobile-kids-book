@@ -13,7 +13,7 @@ export class EndPage implements OnInit {
     this.router.navigateByUrl('/middle');
   }
   launchHome() {
-    this.router.navigateByUrl('/tabs/tab1');
+    this.router.navigateByUrl('/tabs/Home');
   }
 
   ngOnInit() {}
