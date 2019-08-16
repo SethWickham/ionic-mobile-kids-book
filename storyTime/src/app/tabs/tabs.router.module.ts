@@ -27,6 +27,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'contact',
+        children: [
+          {
+            path: '',
+            loadChildren: '../contact/contact.module#ContactPageModule'
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/home',
         pathMatch: 'full'
