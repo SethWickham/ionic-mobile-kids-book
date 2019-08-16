@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 export class BeginningPage implements OnInit {
   constructor(private router: Router) {}
 
-  launchtab1() {
-    this.router.navigateByUrl('/tabs/tab1');
+  launchHome() {
+    this.router.navigateByUrl('/tabs/home');
   }
   launchMiddle() {
     this.router.navigateByUrl('/middle');

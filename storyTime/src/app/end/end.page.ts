@@ -12,7 +12,7 @@ export class EndPage implements OnInit {
   launchMiddle() {
     this.router.navigateByUrl('/middle');
   }
-  launchtab1() {
+  launchHome() {
     this.router.navigateByUrl('/tabs/tab1');
   }
 
