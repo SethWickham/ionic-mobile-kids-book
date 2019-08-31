@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>middle</ion-title>
+    <ion-title navbar text-center>Middle</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -23,13 +23,19 @@
       </p>
     </div>
 
-    <!-- Back button-->
-    <div class="btn">
-      <ion-button color="primary" fill="solid" (click)="launchBeginning()">
-        Back to Beginning</ion-button
-      >
-      <!-- End button-->
-      <ion-button color="primary" fill="solid" (click)="launchEnd()"
+    <!-- Back to the Beginning story part button-->
+    <div class="btnBack">
+      <ion-button color="secondary" fill="solid" (click)="launchBeginning()">
+        Back
+      </ion-button>
+    </div>
+    <!-- Continue on to the End button-->
+    <div class="btnNext">
+      <ion-button
+        color="secondary"
+        fill="solid"
+        shape="round"
+        (click)="launchEnd()"
         >Go to End</ion-button
       >
     </div>

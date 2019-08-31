@@ -1,19 +1,32 @@
+.title {
+}
 .container {
   background-image: linear-gradient(rgb(104, 248, 104), yellow);
 
   height: 100%;
+  padding: 15px;
 }
+
 .content {
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn {
+.btnNext {
   position: absolute;
-  align-items: center;
+  padding-left: 2px;
   bottom: 0;
-  width: 100%;
-  height: 40px; /* Height of the footer */
+  right: 0;
+  height: 20px;
+  margin-bottom: 25px;
+  padding-right: 4px;
+}
 
-  color: rgb(15, 15, 15);
+.btnBack {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  margin-bottom: 25px;
+  padding-left: 4px;
 }
