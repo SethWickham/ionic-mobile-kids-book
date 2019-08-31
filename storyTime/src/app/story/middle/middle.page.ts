@@ -8,12 +8,11 @@ import { Router } from '@angular/router';
 })
 export class MiddlePage implements OnInit {
   constructor(private router: Router) {}
-
   launchBeginning() {
-    this.router.navigateByUrl('/beginning');
+    this.router.navigateByUrl('/story-beginning');
   }
   launchEnd() {
-    this.router.navigateByUrl('/end');
+    this.router.navigateByUrl('/story-end');
   }
 
   ngOnInit() {}

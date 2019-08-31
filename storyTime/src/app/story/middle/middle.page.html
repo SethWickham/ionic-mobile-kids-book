@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>middle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!--Heading -->
+  <div class="container">
+    <h4>This is The <b>Middle</b> of the Story</h4>
+
+    <!--The Story Content -->
+    <div class="content">
+      The Elephant thought to Himself "I'm going to travel back home." It was a
+      three day journey and there were lots of twists and turns along the way.
+      <p>
+        The Elephant came to a raging river. It looked as if it was impossible
+        to cross.
+      </p>
+      <p>
+        Do you know the <b>middle</b> of the story is where things can seem
+        impossible? but don't worry this story is not at the end yet.
+      </p>
+    </div>
+
+    <!-- Back button-->
+    <div class="btn">
+      <ion-button color="primary" fill="solid" (click)="launchBeginning()">
+        Back to Beginning</ion-button
+      >
+      <!-- End button-->
+      <ion-button color="primary" fill="solid" (click)="launchEnd()"
+        >Go to End</ion-button
+      >
+    </div>
+  </div>
+</ion-content>

@@ -14,7 +14,16 @@ const routes: Routes = [
   {
     path: 'contact',
     loadChildren: './contact/contact.module#ContactPageModule'
-  }
+  },
+  {
+    path: 'story-beginning',
+    loadChildren: './story/beginning/beginning.module#BeginningPageModule'
+  },
+  {
+    path: 'story-middle',
+    loadChildren: './story/middle/middle.module#MiddlePageModule'
+  },
+  { path: 'story-end', loadChildren: './story/end/end.module#EndPageModule' }
 ];
 @NgModule({
   imports: [

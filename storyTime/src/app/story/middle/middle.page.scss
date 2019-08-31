@@ -1,0 +1,19 @@
+.container {
+  background-image: linear-gradient(rgb(104, 248, 104), yellow);
+
+  height: 100%;
+}
+.content {
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn {
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Height of the footer */
+
+  color: rgb(15, 15, 15);
+}

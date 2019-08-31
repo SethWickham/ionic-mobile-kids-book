@@ -15,7 +15,7 @@ export class BeginningPage implements OnInit {
     this.router.navigateByUrl('/tabs/home');
   }
   launchMiddle() {
-    this.router.navigateByUrl('/middle');
+    this.router.navigateByUrl('/story-middle');
   }
 
   ngOnInit() {}

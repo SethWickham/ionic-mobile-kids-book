@@ -10,7 +10,7 @@ export class EndPage implements OnInit {
   constructor(private router: Router) {}
 
   launchMiddle() {
-    this.router.navigateByUrl('/middle');
+    this.router.navigateByUrl('/story-middle');
   }
   launchHome() {
     this.router.navigateByUrl('/tabs/home');
