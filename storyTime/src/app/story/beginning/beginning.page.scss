@@ -1,0 +1,27 @@
+.container {
+  background-image: linear-gradient(orange, rgb(104, 248, 104));
+  height: 100%;
+  padding: 15px;
+}
+
+.content {
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnNext {
+  position: absolute;
+  padding-left: 2px;
+  bottom: 35px;
+  right: 0;
+  height: 20px;
+  padding-right: 4px;
+}
+
+.btnBack {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  height: 20px;
+  padding-left: 4px;
+}

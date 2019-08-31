@@ -1,15 +1,43 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>beginning</ion-title>
+    <ion-title navbar text-center>Beginning</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  This is the beginning
-  <ion-button color="primary" fill="solid" (click)="launchHome()">
-    Back to Home</ion-button
-  >
-  <ion-button color="primary" fill="solid" (click)="launchMiddle()"
-    >Go to Middle</ion-button
-  >
+  <!--Heading -->
+  <div class="container">
+    <h4>This is The <b>Beginning</b> of the Story:</h4>
+
+    <!--The Story Content -->
+    <div class="content">
+      Once upon a time an Elephant child was born. He was a very happy child an
+      grew and grew and grew.
+      <p>
+        The Elephant came to a raging river. It looked as if it was impossible
+        to cross.
+      </p>
+      <p>
+        Do you know the <b>beginning</b> of the story is where things can seem
+        impossible? But don't worry this story is not at the end yet.
+      </p>
+    </div>
+
+    <!-- Back to the Beginning story part button-->
+    <div class="btnBack">
+      <ion-button color="secondary" fill="solid" (click)="launchHome()">
+        Back to Home
+      </ion-button>
+    </div>
+    <!-- Continue on to the End button-->
+    <div class="btnNext">
+      <ion-button
+        color="secondary"
+        fill="solid"
+        shape="round"
+        (click)="launchMiddle()"
+        >Go to Middle</ion-button
+      >
+    </div>
+  </div>
 </ion-content>

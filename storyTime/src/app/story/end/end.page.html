@@ -1,16 +1,43 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>end</ion-title>
+    <ion-title navbar text-center>End</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  This is the end of The Story
+  <!--Heading -->
+  <div class="container">
+    <h4>This is The <b>End</b> of the Story:</h4>
 
-  <ion-button color="primary" fill="solid" (click)="launchMiddle()">
-    Back To Middle</ion-button
-  >
-  <ion-button color="primary" fill="solid" (click)="launchHome()"
-    >Go To Home</ion-button
-  >
+    <!--The Story Content -->
+    <div class="content">
+      The Elephant thought to Himself "I'm going to travel back home." It was a
+      three day journey and there were lots of twists and turns along the way.
+      <p>
+        The Elephant came to a raging river. It looked as if it was impossible
+        to cross.
+      </p>
+      <p>
+        Do you know the <b>end</b> of the story is where things can seem
+        impossible? but don't worry this story is not at the end yet.
+      </p>
+    </div>
+
+    <!-- Back to the Beginning story part button-->
+    <div class="btnBack">
+      <ion-button color="secondary" fill="solid" (click)="launchMiddle()">
+        Back to Middle
+      </ion-button>
+    </div>
+    <!-- Continue on to the End button-->
+    <div class="btnNext">
+      <ion-button
+        color="secondary"
+        fill="solid"
+        shape="round"
+        (click)="launchHome()"
+        >Go to Home</ion-button
+      >
+    </div>
+  </div>
 </ion-content>
